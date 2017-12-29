@@ -2,9 +2,9 @@ import sympy
 import antlr4
 from antlr4.error.ErrorListener import ErrorListener
 
-from gen.PSParser import PSParser
-from gen.PSLexer import PSLexer
-from gen.PSListener import PSListener
+from latex2sympy.gen.PSParser import PSParser
+from latex2sympy.gen.PSLexer import PSLexer
+from latex2sympy.gen.PSListener import PSListener
 
 from sympy.printing.str import StrPrinter
 
