@@ -1,11 +1,1 @@
-gen/*
-!gen/__init__.py
-
 *.pyc
-
-# vim stuff
-*.swp
-*.swo
-
-# OSX
-.DS_Store
