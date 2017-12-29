@@ -327,7 +327,7 @@ class PSLexer(Lexer):
 
     def __init__(self, input=None):
         super(PSLexer, self).__init__(input)
-        self.checkVersion("4.5.2")
+        #self.checkVersion("4.5.2")
         self._interp = LexerATNSimulator(self, self.atn, self.decisionsToDFA, PredictionContextCache())
         self._actions = None
         self._predicates = None

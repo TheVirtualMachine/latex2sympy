@@ -351,7 +351,7 @@ class PSParser ( Parser ):
 
     def __init__(self, input):
         super(PSParser, self).__init__(input)
-        self.checkVersion("4.5.2")
+        #self.checkVersion("4.5.2")
         self._interp = ParserATNSimulator(self, self.atn, self.decisionsToDFA, self.sharedContextCache)
         self._predicates = None
 
