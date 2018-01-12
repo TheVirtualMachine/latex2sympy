@@ -215,17 +215,16 @@ class PSParser ( Parser ):
     sharedContextCache = PredictionContextCache()
 
     literalNames = [ "<INVALID>", "','", "<INVALID>", "'+'", "'-'", "'*'", 
-                     "'/'", "'\\left('", "'\\right)'", "'{'", "'}'", "'\\left['", 
-                     "'\\right]'", "'|'", "'\\lim'", "<INVALID>", "'\\int'", 
-                     "'\\sum'", "'\\prod'", "'\\log'", "'\\ln'", "'\\sin'", 
-                     "'\\cos'", "'\\tan'", "'\\csc'", "'\\sec'", "'\\cot'", 
-                     "'\\arcsin'", "'\\arccos'", "'\\arctan'", "'\\arccsc'", 
-                     "'\\arcsec'", "'\\arccot'", "'\\sinh'", "'\\cosh'", 
-                     "'\\tanh'", "'\\arsinh'", "'\\arcosh'", "'\\artanh'", 
-                     "'\\sqrt'", "'\\times'", "'\\cdot'", "'\\div'", "'\\frac'", 
-                     "'\\mathit'", "'_'", "'^'", "':'", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "'='", "'<'", "'\\leq'", "'>'", "'\\geq'", 
-                     "'!'" ]
+                     "'/'", "'('", "')'", "'{'", "'}'", "'['", "']'", "'|'", 
+                     "'\\lim'", "<INVALID>", "'\\int'", "'\\sum'", "'\\prod'", 
+                     "'\\log'", "'\\ln'", "'\\sin'", "'\\cos'", "'\\tan'", 
+                     "'\\csc'", "'\\sec'", "'\\cot'", "'\\arcsin'", "'\\arccos'", 
+                     "'\\arctan'", "'\\arccsc'", "'\\arcsec'", "'\\arccot'", 
+                     "'\\sinh'", "'\\cosh'", "'\\tanh'", "'\\arsinh'", "'\\arcosh'", 
+                     "'\\artanh'", "'\\sqrt'", "'\\times'", "'\\cdot'", 
+                     "'\\div'", "'\\frac'", "'\\mathit'", "'_'", "'^'", 
+                     "':'", "<INVALID>", "<INVALID>", "<INVALID>", "'='", 
+                     "'<'", "'\\leq'", "'>'", "'\\geq'", "'!'" ]
 
     symbolicNames = [ "<INVALID>", "<INVALID>", "WS", "ADD", "SUB", "MUL", 
                       "DIV", "L_PAREN", "R_PAREN", "L_BRACE", "R_BRACE", 
